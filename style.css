@@ -8,39 +8,39 @@ rgba(0,0,0,0.9) right right sans-serif text-align top top width width
 }
 .overlay {
     /* Sit on top of the page content */
-    /* Full width (cover the whole page) */
-    /* Full height (cover the whole page) */
-    /* Stay at the top */
-    /* Stay at the left */
-    /* Stay at the right */
-    /* Stay at the bottom */
-    /* Black background with opacity */
-    /* Add a pointer on hover */
-    /* Use a grid for easy centering */
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+    display: grid;
     /* Center vertically and horizontally */
 }
 .overlay::after {
-    /* Add content : "X" */
-    /* White text color */
-    /* Black background color */
-    /* Font family "sans-serif" */
-    /* Centered text */
-    /* Line height ( idem height ) */
-    /* Display as a block */
-    /* Position absolute */
-    /* 1rem from the top */
-    /* 1rem from the right */
-    /* 2rem width */
-    /* 2rem height */
-    /* White border of 2px */
-    /* Rounded border */
+    place-content: x;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100%;
+    display: block;
+    position: absolute;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-color: white 2px;
+    border-radius: ;
 }
 .overlay>figure {
-    /* No margin */
-    /* 1rem padding */
+    margin: 0%;
+   padding: 1rem;
     /* White border of 2px */
 }
 .overlay>figure>img {
-    /* Max width 100% for responsive image */
-    /* Height auto for keeping the ratio */
+    max-width: 100%;
+    height: auto;
 }
